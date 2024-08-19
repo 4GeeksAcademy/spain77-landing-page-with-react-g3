@@ -29,5 +29,5 @@ Cards.defaultProps = {
     imageALT: '',
     title: 'Titulo',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    button: 'Call to Action!',
+    button: 'Call to Action!*',
 };
