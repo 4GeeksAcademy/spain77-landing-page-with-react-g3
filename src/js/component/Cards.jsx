@@ -23,3 +23,11 @@ Cards.propTypes = {
     content: PropTypes.string.isRequired,
     button: PropTypes.string.isRequired,
 };
+
+Cards.defaultProps = {
+    imageURL: 'https://randomuser.me/api/portraits/men/35.jpg',
+    imageALT: '',
+    title: 'Titulo',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    button: 'Call to Action!',
+};
