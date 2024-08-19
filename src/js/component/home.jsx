@@ -4,6 +4,7 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import { NavBar } from "./Navbar";
 import { Jumbotron } from "./Jumbotron.jsx";
+import { Footer } from "./Footer";
 
 //create your first component
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
 		<div className="container">
 			<NavBar/>
 			<Jumbotron />
+			<Footer/>
 		</div>
 	);
 };
